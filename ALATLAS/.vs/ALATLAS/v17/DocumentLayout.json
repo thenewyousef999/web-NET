@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4083556-8214-4B1A-8798-B48F1D12582A}|ALATLAS.csproj|d:\\new\\altals_web\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\alatlas\\mydashoard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C4083556-8214-4B1A-8798-B48F1D12582A}|ALATLAS.csproj|solutionrelative:mydashoard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4083556-8214-4B1A-8798-B48F1D12582A}|ALATLAS.csproj|d:\\new\\altals_web\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\alatlas\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4083556-8214-4B1A-8798-B48F1D12582A}|ALATLAS.csproj|solutionrelative:index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4083556-8214-4B1A-8798-B48F1D12582A}|ALATLAS.csproj|D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C4083556-8214-4B1A-8798-B48F1D12582A}|ALATLAS.csproj|solutionrelative:index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4083556-8214-4B1A-8798-B48F1D12582A}|ALATLAS.csproj|D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\mydashoard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4083556-8214-4B1A-8798-B48F1D12582A}|ALATLAS.csproj|solutionrelative:mydashoard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 375,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "myDashoard.aspx",
+              "DocumentMoniker": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\myDashoard.aspx",
+              "RelativeDocumentMoniker": "myDashoard.aspx",
+              "ToolTip": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\myDashoard.aspx",
+              "RelativeToolTip": "myDashoard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-06T16:40:32.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.aspx.cs",
+              "DocumentMoniker": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\index.aspx.cs",
+              "RelativeDocumentMoniker": "index.aspx.cs",
+              "ToolTip": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\index.aspx.cs",
+              "RelativeToolTip": "index.aspx.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAwwFEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T15:18:39.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.aspx",
+              "DocumentMoniker": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\index.aspx",
+              "RelativeDocumentMoniker": "index.aspx",
+              "ToolTip": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\index.aspx",
+              "RelativeToolTip": "index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-17T15:18:32.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "myDashoard.aspx.cs",
+              "DocumentMoniker": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\myDashoard.aspx.cs",
+              "RelativeDocumentMoniker": "myDashoard.aspx.cs",
+              "ToolTip": "D:\\new\\ALTALS_WEB\\copy_1_12_2024\\18-3-2024\\copy_1_12_2024\\ALATLAS\\myDashoard.aspx.cs",
+              "RelativeToolTip": "myDashoard.aspx.cs",
+              "ViewState": "AQIAAJQhAAAAAAAAAAAAAJQhAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:05:31.01Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

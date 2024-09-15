@@ -1,0 +1,250 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mydashoard.master.cs" Inherits="ALATLAS.mydashoard1" %>
+
+<html>
+
+    <head>
+
+
+    
+    
+ <title>ALATLAS</title>
+ <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    
+
+
+        
+
+    
+    
+
+    
+    
+     
+    
+     
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    
+   
+</head>
+
+
+  
+
+
+
+
+<body>
+
+    
+    
+
+     
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+   <asp:Label ID="sessionsuch" runat="server" CssClass="bold" Visible="true" Font-Size="18pt" meta:resourcekey="LaStudentNameResource1" Text=""></asp:Label>
+
+
+
+     <form id="form1public" runat="server" >
+    
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">الأطلس للعقارات</a>
+    </div>
+      
+    <ul class="nav navbar-nav">
+     
+       
+       <% // <li><a href="soldepage.aspx"> صفحة بيع العقارات </a></li>
+         // <li><a href="takepage.aspx">صفحة تاجير العقارات</a></li> --%>
+
+        
+
+         <li class="nav-item ">
+             <a class="nav-link" href="#">  </a>
+          </li>
+
+
+        <li class="nav-item ">
+              <a class="nav-link" href="#">  </a>
+           </li>
+
+
+
+    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">master_(صفحة بحث عن عقار(شراء-استاجار <span class="caret"></span></a>
+        <ul class="dropdown-menu"> 
+        
+        
+        <li  class="nav-item"><a href="ricepage.aspx">صفحة بحث عن عروض بيع عقار </a></li>
+
+        <li><a href="take of.aspx">صفحة بحث عن عروض اجار عقار</a></li>
+           
+        </ul>  
+      </li>  
+
+
+      
+     
+
+         <li class="nav-item ">
+             <a class="nav-link" href="#">  </a>
+          </li>
+
+
+        <li class="nav-item ">
+              <a class="nav-link" href="#">  </a>
+           </li>
+
+
+          <li class="active" ><a href="homee.aspx"> (اعدادات) c-panel </a> </li>
+
+              <li class="nav-item ">
+                  <a class="nav-link" href="#"></a>
+                    </li>
+
+
+
+        <li class="nav-item ">
+            <a class="nav-link" href="#"></a>
+           </li>
+
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="#"></a>
+           </li>
+
+     
+          <li class="active" ><a href="request_master.aspx">صفحة الطلبات العقارية _master</a></li>
+
+            <li class="nav-item ">
+               <a class="nav-link" href="#"></a>
+           </li>
+
+
+           <li class="nav-item ">
+               <a class="nav-link" href="#">  </a>
+              </li>
+
+<li  class="active"><a href="WIN.aspx">صفحة ربح  المكتب</a></li>
+
+    </ul>
+
+
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> </a></li>
+      <li><a href="adminloign.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+      
+   <ul class="nav navbar-nav">
+     
+      
+        
+
+      <li><a href="REQusetRICE.aspx">  (public)_صفحة طلبات شراء العقارات </a></li>
+
+      <li><a href="REQusetTAKE of.aspx">  (public)_صفحة طلبات استأجر العقارات</a></li>
+        
+        <li class="nav-item ">
+           <a class="nav-link" href="#"></a>
+          </li>
+
+
+
+       <li class="nav-item ">
+         <a class="nav-link" href="#"></a>
+      </li>
+
+
+
+        
+      <li><a href="requestsolde.aspx"> (public)_صفحة طلبات بيع العقارات </a></li>
+        
+      <li><a href="REQusetTAKE.aspx"> (public)_صفحة طلبات تاجير العقارات</a></li>
+
+       
+    </ul>
+
+
+
+  
+  </div>
+</nav>
+
+
+
+         
+ 
+
+       
+
+
+
+     
+    
+
+<div class="container">
+
+     
+  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    
+
+      
+    <div class="right" dir="rtl">  
+
+     <asp:ContentPlaceHolder ID="ClientsMainContent" runat="server">
+
+   </asp:ContentPlaceHolder></div>
+
+
+
+
+
+    </asp:ContentPlaceHolder>
+
+    <br />
+    <br />
+
+  <h3>alert alert-info</h3>
+  <p> copyright © 2023 AL ATLAS. all rights reserved..</p>
+</div>
+
+
+         </form>
+
+
+
+</body>
+
+</html>

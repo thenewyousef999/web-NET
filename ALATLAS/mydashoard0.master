@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="mydashoard0.master.cs" Inherits="ALATLAS.mydashoard" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+ <title>ALATLAS</title>
+ <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+
+
+
+
+
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+       
+    </asp:ContentPlaceHolder>
+    
+
+
+
+
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+  
+  
+
+    
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+      
+    <ul class="nav navbar-nav">
+     
+         <li class="active" ><a href="homee.aspx"> Home_add </a> </li>
+
+        <li><a href="requestsolde.aspx"> صفحة طلبات بيع العقارات </a></li>
+
+
+        <li><a href="REQusetRICE.aspx">صفحة طلبات شراء العقارات </a></li>
+
+        
+      <li><a href="REQusetTAKE.aspx">صفحة طلبات تاجير العقارات</a></li>
+
+      <li><a href="REQusetTAKE of.aspx">صفحة طلبات استأجر العقارات</a></li>
+
+       <li><a href="WIN.aspx">صفحة ربح  المكتب</a></li>
+
+    </ul>
+
+
+
+  
+  </div>
+</nav>
+  
+
+
+  
+
+
+        
+
+
+
+
+
+   
+
+
+
+    <div class="right" dir="rtl">  
+
+     <asp:ContentPlaceHolder ID="ClientsMainContent" runat="server">
+
+   </asp:ContentPlaceHolder></div>
+ 
+
+       
+
+
+
+
+</asp:Content>

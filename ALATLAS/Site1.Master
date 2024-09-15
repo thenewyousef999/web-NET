@@ -1,0 +1,1133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ALATLAS.Site1" %>
+
+
+
+<html lang="ar">
+<head>
+
+    
+            <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+            <meta name='apple-itunes-app' content='app-id=1572629063, affiliate-data=myAffiliateData, app-argument=https://https://aqaryamasr.com/'/>
+            <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
+            <meta name='csrf-token' content='MRMONKwsIK0eMCs7RMh09dNqxNKwAMuAfpwOLPYW' />
+            <meta name='google-site-verification' content='E4z2olJ1K54Ndg181Tb15M7F1A_Fcq-oE1OpKjj2dMAZLclE' />
+
+            <meta property='al:web:should_fallback' content='false' />
+            <meta property='al:ios:app_store_id' content='1572629063' />
+            <meta property='al:ios:app_name' content=' applicaton  myapp' />
+            <meta property='al:android:package' content='aqar.ya.masr' />
+            <meta property='al:android:app_name' content='   application myapp' />
+
+            <title>  الاطلس - الموقع العقاري المجاني الأول في سوريا</title>
+
+            <meta name='keywords' content='عقارات , شقق , فلل , قصور' />
+            <meta name='description' content='يعتبر موقع   الاطلس الموقع العقاري المجاني الأول في سوريا حيث يمكنك البحث من خلال ماب الموقع عن عقارات للبيع او عقارات للإيجار بمساحات مختلفة وبالصور والأسعار من خلال متابعة اعلانات الموقع'/>
+            <meta name='author' content='عقار يا اطلس' />
+
+            <meta property='twitter:card' content='summary' />
+            <meta property='twitter:site' content='https://aqaryamasr.com' />
+            <meta property='twitter:title' content='  الاطلس - الموقع العقاري المجاني الأول في سوريا' />
+            <meta property='twitter:description' content='يعتبر موقع   الاطلس الموقع العقاري المجاني الأول في سوريا حيث يمكنك البحث من خلال ماب الموقع عن عقارات للبيع او عقارات للإيجار بمساحات مختلفة وبالصور والأسعار من خلال متابعة اعلانات الموقع' />
+            <meta property='twitter:image' content='https://aqaryamasr.com/frontend/assets/imgs/logo__main.jpg' />
+
+            <meta property='og:title' content='  الاطلس - الموقع العقاري المجاني الأول في سوريا' />
+            <meta property='og:description' content='يعتبر موقع   الاطلس الموقع العقاري المجاني الأول في سوريا حيث يمكنك البحث من خلال ماب الموقع عن عقارات للبيع او عقارات للإيجار بمساحات مختلفة وبالصور والأسعار من خلال متابعة اعلانات الموقع' />
+            <meta property='og:image' content='https://aqaryamasr.com/frontend/assets/imgs/logo__main.jpg' />
+            <meta property='og:url' content='https://aqaryamasr.com' />
+            <meta property='og:type' content='website' />
+            <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png'/>
+            <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png'/>
+            <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png'/>
+            <link rel='manifest' href='/site.webmanifest'/>
+            <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5'/>
+            <meta name='msapplication-TileColor' content='#da532c'/>
+            <meta name='theme-color' content='#ffffff'/>
+            <link rel='alternate' hreflang='ar-eg' href='#' />
+
+        <script type="application/ld+json">{"@context": "https://schema.org","@type": "Organization","url": "https://aqaryamasr.com","logo": "https://aqaryamasr.com/frontend/imgs/logo.svg"}</script><script type="application/ld+json">{"@context": "https://schema.org","@type": "SiteNavigationElement","name": [
+                        "عقار يا مصر",
+                        "شقق للبيع",
+                        "شقق للإيجار",
+                        "أضف عقارك مجانا",
+                        "عن عقار يا مصر",
+                        "تواصل معنا",
+                        "حمل تطبيق عقار يا مصر جوجل بلاي",
+                        "حمل تطبيق عقار يا مصر أبل"
+                    ],"url": [
+                        "https://aqaryamasr.com",
+                        "https://aqaryamasr.com/realestate_filter/0/0/%D8%B3%D9%83%D9%86%D9%8A/%D8%B4%D9%82%D9%82/%D9%84%D9%84%D8%A8%D9%8A%D8%B9",
+                        "https://aqaryamasr.com/realestate_filter/0/0/%D8%B3%D9%83%D9%86%D9%8A/%D8%B4%D9%82%D9%82/%D9%84%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%B1",
+                        "https://aqaryamasr.com",
+                        "https://aqaryamasr.com/about_us",
+                        "https://aqaryamasr.com/contact_us",
+                        "https://play.google.com/store/apps/details?id=aqar.ya.masr",
+                        "https://apps.apple.com/app/id1572629063"
+
+                        ]}</script>
+
+    
+    <!-- bootstrap -->
+    <!--<link  rel="stylesheet preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">-->
+    <!--<link  rel="stylesheet preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">-->
+    
+    
+    <link rel="stylesheet preload" href="https://aqaryamasr.com/assets/front/css/bootstrap.min.css"/>
+
+
+    <!-- fortawesome -->
+    
+    <link rel="stylesheet preload" href="https://aqaryamasr.com/assets/front/libs/fontawesome-free-5.15.4-web/css/all.min.css"/>
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet preload" href="https://aqaryamasr.com/assets/front/css/owlcarousel/owl.carousel.min.css"/>
+    <link rel="stylesheet preload" href="https://aqaryamasr.com/assets/front/css/owlcarousel/owl.theme.default.min.css"/>
+
+    
+    <!--<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet preload" />-->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7-rc.0/css/select2.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet preload" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Stylesheets -->
+
+    <link rel="stylesheet preload" href="https://aqaryamasr.com/assets/front/css/main.css?var=18.51"/>
+    <link rel="stylesheet preload" href="https://aqaryamasr.com/assets/front/css/ahmed.css?var=8.5"/>
+
+    
+
+
+   
+
+    <!-- Facebook Pixel Code -->
+
+    
+    <script>!function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '580634046412457'); fbq('track', 'PageView');</script>
+     
+
+
+    <!-- End Facebook Pixel Code    http://192.168.1.14:84 -->
+
+        <style>
+        section.search {
+            
+            background-image:    url('http://192.168.1.14:84/files/log22.jpg'); 
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+
+    <style>
+                 .dropdown-menu.show {
+          max-width: 440px;
+          overflow: hidden;
+        }
+    </style>
+
+    <script type="text/javascript"> var base_url = "https://aqaryamasr.com"; </script>
+    <script type="text/javascript"> var officeUrl = "https://aqaryamasr.com/office"; </script>
+    <script type="text/javascript"> var statistic_user_type = "visitor"; </script>
+    <script type="text/javascript"> var userType = ""; </script>
+    <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1353988727141840"-->
+    <!-- crossorigin="anonymous"></script>-->
+
+    
+
+
+    
+
+    
+    
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+    
+
+   
+    <script src="Scripts/owl.carousel.js"></script>
+    
+     
+
+
+
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+
+        
+    
+
+
+          </asp:ContentPlaceHolder>
+
+
+
+</head>
+
+
+<body>
+    
+
+
+
+    
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js" rel="preload"></script>
+        <!--<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js" rel="preload"></script>-->
+
+        <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js" rel="preload"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <!--<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js" rel="preload"></script>-->
+        <!--<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js" rel="preload"></script>-->
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-messaging.js" rel="preload"></script>
+    
+    
+
+    <!-- javascript -->
+
+    <script src="https://aqaryamasr.com/assets/front/js/jquery-3.3.1.min.js" rel="preload"></script>
+<!---->
+    <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" rel="preload" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>-->
+    
+    <!--https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js-->
+    
+    <script src="https://unpkg.com/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    
+    
+    <script src="https://aqaryamasr.com/assets/front/js/bootstrap.min.js" rel="preload"></script>
+
+
+
+    <script src="https://aqaryamasr.com/assets/front/js/owlcarousel/owl.carousel.min.js" rel="preload"></script>
+
+    <!--<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" rel="preload"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7-rc.0/js/select2.min.js"></script>
+
+    <!--<script src="//cdn.jsdelivr.net/npm/sweetalert2@11" rel="preload"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.0/sweetalert2.all.min.js" rel="preload"></script>  
+    <script src="https://aqaryamasr.com/assets/front/libs/jquery-circle-progress-1.2.2/dist/circle-progress.min.js" rel="preload"></script>
+    <script src="https://aqaryamasr.com/assets/front/js/main.js?var=2.14" rel="preload"></script>
+
+
+
+
+                
+
+
+
+
+     <noscript> <img height="1" width="1" src="https://www.facebook.com/tr?id=580634046412457&ev=PageView&noscript=1"/></noscript>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  aria-hidden="true">
+    <div class="modal-dialog rounded modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+
+            <form method="post"  id="loginForm" >
+
+                  <input type="hidden" name="_token" value="MRMONKwsIK0eMCs7RMh09dNqxNKwAMuAfpwOLPYW"/>  
+                 <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="modalLoginFormCloseBtn"/>
+                      
+                    </div>
+
+
+                <div class="modal-body">
+                    <img src="files\log99.jpg"/>
+                    <div id="msg-result"></div>
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-tel2">رقم الهاتف</label>
+                        <input type="number" id="defaultForm-tel2" class="form-control validate validate_phone_login" placeholder="01x11111xxxxxxxx" name="phone0" />
+                    </div>
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-passsssssss">كلمة السر</label>
+                        <div class="input-group" id="show_hide_password">
+                            <input type="password" id="defaultForm-passsssssss"  name="password0" class="form-control validate"/>
+                            <div class="input-group-addon">
+                                <a href="#"><i class="bi bi-eye-slash"aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <p><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modalForgotForm" id="forgotPasswordBtn">نسيت كلمة السر ؟</a></p>
+                    </div>
+                </div>
+
+                
+
+                <div class="modalfooter justify-content-center" >
+                    <button type="button"  class="btn btn-primary login" id="ll" value="rrrr"  onclick="">تسجيل دخول</button>
+                    <p> <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modalRegisterForm">ليس لديك حساب ؟ تسجيل </a></p>
+                </div>
+
+
+            </form>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+    
+    <script>
+
+
+
+     
+        
+
+        document.getElementById("ll").addEventListener('click', function () {
+
+
+            var valpass = $('#loginForm input[name="password0"]').val();
+
+            var valphone = $('#loginForm input[name="phone0"]').val();
+
+           
+
+
+            if (valpass == '') {
+                $('#loginForm input[type="password"]').addClass('border-error');
+            }
+            else if (valpass != '') {
+                $('#loginForm input[type="password"]').removeClass('border-error');
+            }
+
+
+
+
+            if (valphone == '') {
+                $('#loginForm input[type="number"]').addClass('border-error');
+            }
+            else if (valphone != '') {
+                $('#loginForm input[type="number"]').removeClass('border-error');
+            }
+
+
+
+
+           if ((valpass != '') && (valphone != ''))
+            {
+
+
+
+                var inputphon = $('#loginForm input[name="phone0"]').val();
+
+                var inputpass = $('#loginForm input[name="password0"]').val();
+
+
+             //  alert(inputphon);
+              //  alert(inputpass);
+
+                $.ajax({
+                    type: "POST",
+                    url: 'index.aspx/ee',
+                    data: "{ 'name' :'" + inputphon + "', 'pass' : '" + inputpass + "'}",
+                    contentType: "application/json;charest=utf-8",
+                    dataType: "json",
+
+
+                    success: function (msg) {
+
+                        //alert(msg.d);
+                        if ((msg.d != "") && (msg.d != "not-active") && (msg.d != "error") && (msg.d != "private")) {
+
+                          //  alert(msg.d);
+
+                            window.location.href = "index.aspx?tutorialbrowserid=" + msg.d + " " + "&admintype=" + "publice";
+
+                          
+
+
+                        }
+
+
+
+                        else if (msg.d == "private") {
+
+                            window.location.href = "myDashoard.aspx?admintype=" + msg.d;
+
+
+
+
+                        }
+
+                        else if (msg.d == "not-active") {
+
+                            alert("not-active");
+
+
+                            $('#modalLoginFormCloseBtn').trigger('click');   //// اغلاق فورم تسجيل الدخول
+
+
+
+
+
+
+
+                            var modalforgotpassForm = new bootstrap.Modal(document.getElementById('modalForgotForm'));  //// فورم نسيت كلمة السر
+
+
+
+                          //  phone = $('#loginForm').find('input[name=phone0]').val();   ///
+
+                           
+                          
+
+                            // $('.num-phone').text(phone);
+
+                           // $('#modalForgotForm input[name="phone"]').val() = phone;
+
+
+                            modalforgotpassForm.show();
+
+                          //  code_counter2(null, '.disabled-when-done');
+
+                        }
+
+
+                        else if (msg.d == 'error') {
+                            alert("errorjjjjj");
+                            $('#loginForm').find('input[name="phone0"]').addClass('border-error').removeClass('border-success-a');
+                            //$('.po').remove();
+                            $('#loginForm').find('input[name="phone0"]').after('<span class="error-msg po">' + "رقم الهاتف او كلمة السر غير صحيحة" + '</span>');
+
+                        }
+                    }
+
+
+
+                });//// json
+
+
+
+            }  /// else
+        })
+
+
+    </script>
+      
+
+
+
+
+    
+
+    
+<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  aria-hidden="true">
+    <div class="modal-dialog rounded modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+
+            <form action="#" method="post" id="registerForm">
+                <input type="hidden" name="_token" value="MRMONKwsIK0eMCs7RMh09dNqxNKwAMuAfpwOLPYW"/>
+
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeModalRegisterForm">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <img src="files\log99.jpg"/>
+                    <div class="registerResult"></div>
+
+                    <div class="md-form">
+                        <label  data-success="right" for="defaultForm-name">اسم الاول للمستخدم</label>
+                        <input type="text" name="namef" id="defaultForm-namefirst" class="form-control"/>
+                    </div>
+
+                      <div class="md-form">
+                          <label  data-success="right" for="defaultForm-name">اسم الثاني للمستخدم</label>
+                           <input type="text" name="namel" id="defaultForm-namelast" class="form-control"/>
+                         </div>
+
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-tel">رقم الهاتف</label>
+                        <input type="number" name="phone" id="defaultForm-tel" placeholder="01xxxxxxxxx" class="form-control validate validate_phone" />
+                    </div>
+
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-pass">كلمة السر</label>
+                        <div class="input-group" id="show_hide_passwordh">
+                            <input type="password" id="defaultForm-pass" name="password" class="form-control validate"/>
+                            <div class="input-group-addon">
+                                <a href="#"><i class="bi bi-eye-slash"aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-repass">تأكيد كلمة السر</label>
+                        <div class="input-group" id="show_hide_password1">
+                            <input type="password" name="password_confirmation" id="defaultForm-repass" class="form-control  validate"/>
+                            <div class="input-group-addon">
+                                <a href="#"><i class="bi bi-eye-slash"aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                 
+
+                    <div class="md-form">
+                        <input type="checkbox" id="office" name="isOffice" value="1"/>
+                        <label for="office">التسجيل كمكتب عقارى</label>
+                    </div>
+
+                    <div class="md-form">
+						<input type="checkbox" id="condiation" value="الموافقه على"/>
+			  			<label for="condiation">الموافقه على <a class="agree" target="_blank" href="#">الشروط والاحكام</a></label>
+					</div>
+
+                </div>
+
+                <div class="modalfooter justify-content-center">
+                    <button type="button"  id="accountsit" class="btn btn-primary login" onclick="" >تسجيل</button>
+                    <p><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modalLoginForm"> لديك حساب ؟  تسجيل دخول</a></p>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+
+
+
+
+    document.getElementById("accountsit").addEventListener('click', function () {
+
+        var valpass = $('#registerForm input[name="password"]').val();
+
+        var valphone = $('#registerForm input[name="phone"]').val();
+
+        var valconfirpass = $('#registerForm input[name="password_confirmation"]').val();
+
+
+
+
+        if (valpass == '') {
+            $('#registerForm input[type="password"]').addClass('border-error');
+        }
+        else if (valpass != '') {
+            $('#registerForm input[type="password"]').removeClass('border-error');
+        }
+
+
+
+
+        if (valphone == '') {
+            $('#registerForm input[type="number"]').addClass('border-error');
+        }
+        else if (valphone != '') {
+            $('#registerForm input[type="number"]').removeClass('border-error');
+        }
+
+       
+
+
+
+
+        if ((valconfirpass != valpass)) {
+           // alert("eeee");
+
+            $('#registerForm input[type="password"]').addClass('border-error');
+            $('#show_hide_password1 i').removeClass("bi-eye-slash");
+            $('#show_hide_password1 i').addClass("bi-eye");
+
+           // $('#registerForm').html('<div class="alert alert-danger mt-2">' + "كلمة السر غير مطابقة" + '</<div>');
+
+            $('#registerForm').find('input[name="password_confirmation"]').after('<span class="error-msg po">' + "كلمة السر غير مطابقة" + '</span>');
+
+        }
+        else if ((valconfirpass == valpass)) {
+           // alert("eeee");
+
+            $('#registerForm input[type="password"]').removeClass('border-error');
+            $('#show_hide_password1 i').removeClass("bi-eye-slash");
+            $('#show_hide_password1 i').addClass("bi-eye");
+
+            $('#registerForm').find('input[name="password_confirmation"]').after('<span class="error-msg po">' + "ok" + '</span>');
+
+        }
+
+
+       if ((valconfirpass == valpass) && (valpass != '') && (valphone!=''))
+        { 
+            var inputfirstname = $('#registerForm input[name="namef"]').val();
+            var inputlastname = $('#registerForm input[name="namel"]').val();
+
+            var inputphonnumber = $('#registerForm input[name="phone"]').val();
+            var inputpassnumber = $('#registerForm input[name="password"]').val();
+
+
+
+            $.ajax({
+                type: "POST",
+                url: 'index.aspx/eeadd',
+                data: "{ 'namefirst' : '" + inputfirstname + "', 'namelast':'" + inputlastname + "' ,'phone':'" + inputphonnumber + "', 'pass' : '" + inputpassnumber + "'}",
+                contentType: "application/json;charest=utf-8",
+                dataType: "json",
+
+
+                success: function (msg) {
+
+                   // alert(msg.d);
+                    if (msg.d == 'ok') {
+
+
+                        alert("ok");
+                        $('#closeModalRegisterForm').trigger('click');   //// اغلاق فورم اضافة حساب الدخول
+
+                        var modalCodeForm = new bootstrap.Modal(document.getElementById('modalCodeForm'));  //// فورم الكود التحقق
+
+                        phone = $('#registerForm').find('input[name=phone]').val();   /// 
+
+
+                        $('.num-phone').text(phone);
+                        modalCodeForm.show();
+                        code_counter2(null, '.disabled-when-done');
+
+                        phone = $('#registerForm').find('input[name=phone]').val();   /// 
+                        if (phone) {
+                            resend_ajax_code(phone, true);
+                        }
+
+                       
+
+
+                    }
+
+                    else {
+
+                        alert("no_add");
+                       // let errors = msg.errors;
+                       // let keys = Object.keys(errors);
+                       // for (let i = 0; i < keys.length; i++) {
+                        //    $(registerForm).find('[namef="' + keys[i] + '"]').addClass('border-error');
+                         //   $(registerForm).find('[namel="' + keys[i] + '"]').after('<small class="error-msg w-100">' + errors[keys[i]][0] + '</small>');
+                        $('#registerForm').html('<div class="alert alert-danger mt-2">' + "لم يتم التسجيل يرجى اعادة المحاولة لاحقا" + '</<div>');
+
+
+                    
+
+                    }
+
+
+                }
+            });  ///json
+        }///else
+
+
+
+        })
+
+
+
+
+</script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<div class="modal fade" id="modalForgotForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  aria-hidden="true">
+    <div class="modal-dialog rounded modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form method="post" action="https://aqaryamasr.com/resend_code" id="forgotPasswordForm" >
+                <input type="hidden" name="_token" value="MRMONKwsIK0eMCs7RMh09dNqxNKwAMuAfpwOLPYW"/>    
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeModalForgotForm">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="files\log99.jpg"/>
+                    <div class="forgotPasswordResult"></div>
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-telll">رقم الهاتف</label>
+                        <input type="number" id="defaultForm-telll" class="form-control validate phone" placeholder="09xxxxxxxx" name="phone" minlength="11" maxlength="11"/>
+                    </div>
+                </div>
+                <div class="modalfooter justify-content-center">
+                    <button type="submit" class="btn btn-primary login" >ارسال الكود</button>
+                    <p> ليس لديك حساب ؟  <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modalRegisterForm">تسجيل </a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    
+
+<div class="modal fade" id="modalCodeForm" tabindex="-2" role="dialog" aria-labelledby="myModalLabel"  aria-hidden="true">
+    <div class="modal-dialog rounded modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form method="post" action="https://aqaryamasr.com/verify_code" id="codeForm" >
+                <input type="hidden" name="_token" value="MRMONKwsIK0eMCs7RMh09dNqxNKwAMuAfpwOLPYW"/><div id="codeResult"></div>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeModalCodeForm">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="files\log99.jpg"/>
+                    <p>برجاء ادخال رمز التحقق المرسل الى رقم</p>
+                    <p class="num-phone"></p>
+                    <div class="forgotPasswordResult"></div>
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-tel">كود التفعيل</label>
+                        <div class="row">
+                            <div class="col-3">
+                                <input maxlength="1" required="" name='code_u4_fb' type="text" class="form-control num user_fb_code first disabled-when-done inputCode" />
+                            </div>
+                            <div class="col-3">
+                                <input maxlength="1" required="" name='code_u3_fb'  data-next="code_u4_fb" type="text" class="form-control num user_fb_code disabled-when-done inputCode"/>
+                            </div>
+                            <div class="col-3">
+                                <input  maxlength="1" required="" name='code_u2_fb' data-next="code_u3_fb" type="text" class="form-control num user_fb_code disabled-when-done inputCode"/>
+                            </div>
+                            <div class="col-3">
+                                <input maxlength="1" required="" name='code_u1_fb' data-next="code_u2_fb"  type="text" class="form-control num user_fb_code disabled-when-done inputCode" />
+                            </div>
+                        </div>
+                        <input type="hidden" name="code" class="user_forgetPass_code"/>
+                        <input type="hidden" name="phone" class="user_forgetPass_phone"/>
+                        <input type="hidden" name="reset_pass" value=""/>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <span class="code_counter"></span>
+                </div>
+                <div class="modalfooter justify-content-center">
+                    <button type="submit" class="btn btn-primary login disabled-when-done">ارسال الكود</button>
+                    <p><button class="btn btn-outline-info" href="" id="resendCode" disabled="" type="button">إعادة الإرسال </button></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+   
+
+    <script>
+
+
+       
+
+
+        $('#forgotPasswordForm').on('submit', function (e) {
+            e.preventDefault();
+            phone = $(this).find('input[name=phone]').val();
+            if (phone) {
+                resend_ajax_code(phone, true);
+            }
+            $('input[name=reset_pass]').val('1');
+        })
+
+
+
+
+        $('#resendCode').on('click', function (e) {
+            $(".forgotPasswordResult").html('');
+            e.preventDefault();
+            if (phone) {
+                resend_ajax_code(phone)
+            }
+            $(this).attr('disabled', true);
+        })
+
+
+
+
+        function resend_ajax_code(phone, isFirst = false) {
+            $.ajax({
+                type: "POST",
+                url: "index.aspx/Sendcod",
+                data: { 'phone': 'lonasamerekal199@gmail.com', 'subject': 'رمز التحقق', 'body': '1234' },
+
+                cache: false,
+                success: function () {
+
+
+                    alert("success");
+                    code_counter2(null, '.disabled-when-done');
+                    if (isFirst) {
+                        $('#closeModalForgotForm').trigger('click');
+                        var modalCodeForm = new bootstrap.Modal(document.getElementById('modalCodeForm'))
+                        $('.num-phone').text(phone);
+                        modalCodeForm.show();
+                    } else {
+                        $('.disabled-when-done').removeClass('disabled').attr('disabled', false);
+                    }
+                    //else if(msg.status === 'error') {
+                    // alert("errrs");
+                    // $('.forgotPasswordResult').html('<div class="alert alert-danger mt-2">' + msg.msg + '</<div>')
+
+                } 
+
+
+            });
+        }
+
+
+
+
+
+        $(".user_fb_code").Change(function () {
+            codeValue = $("input[name='code_u1_fb']").val() + '' + $("input[name='code_u2_fb']").val() + '' + $("input[name='code_u3_fb']").val() + '' + $("input[name='code_u4_fb']").val();
+            $(".user_forgetPass_code").val(codeValue);
+            $(".user_forgetPass_phone").val(phone);
+        });
+
+
+
+
+
+        $('#codeForm').on('submit', function (e) {
+            if (!phone) return '';
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: $(this).attr('action'),
+                data: $(this).serialize(),
+                cache: false,
+                success: function (msg) {
+                    //modalCodeForm
+                    if (msg.status === 'success') {
+                        if (msg.redirectTo) {
+                            $('#closeModalCodeForm').trigger('click');
+                            Swal.fire({
+                                title: 'أهلاً بيك في موقع عقار يا مصر',
+                                text: "لو بتدور على عقار بمواصفات معينه في أي مكان هتلاقيه عندنا بالأسعار المناسبة ليك وبدون سمسار. أدخل الموقع وأبدأ رحلتك للبحث عن عقارك دلوقتي.",
+
+                                confirmButtonText: 'حسنا!',
+
+                                imageUrl: "https://dev.aqaryamasr.com/assets/front/imgs/logo-p.svg"
+                            }).then(function (text) {
+                                window.location.href = msg.redirectTo;
+                            });
+
+
+                            //window.location.href = msg.redirectTo;
+                        } else {
+                            $('#closeModalCodeForm').trigger('click');
+                            var modalCodeForm = new bootstrap.Modal(document.getElementById('newPasswordModal'))
+                            modalCodeForm.show();
+                            $('.reset-password-phone').val(phone);
+                            $(".reset-code-phone").val(codeValue);
+                        }
+                    } else if (msg.status === 'error') {
+                        $('.forgotPasswordResult').html('<div class="alert alert-danger mt-2">' + msg.msg + '</<div>')
+                    }
+                }
+            });
+        })
+
+
+
+        $('#modalCodeForm').on('shown.bs.modal', function () {
+            document.querySelector('input[name=code_u1_fb]').focus();
+            $('.inputCode').on('keyup', function () {
+                if (!isNumeric($(this).val())) {
+                    return $(this).val('')
+                }
+                if ($(this).attr('data-next')) {
+                    $('input[name="' + $(this).attr('data-next') + '"]').Focus();
+                }
+            })
+        })
+
+
+
+       
+        function code_counter2(c, disabled) {
+            var minutes = "00";
+            var seconds = 60;
+            var real_seconds = 60;
+            var active_resend = $('#resendCode');
+            $("span.code_counter").html(minutes + ":" + seconds);
+            var count = setInterval(
+                function () {
+
+                    if (parseInt(real_seconds) < 0) {
+                        clearInterval(count);
+                        $("span.code_counter").html("");
+                        //$(".forgotPasswordResult").html('<div class="alert alert-danger mt-2"> يرجى الضغط على اعادة الارسال ليصلك كود تفعيل جديد </div>');
+                        active_resend.addClass('active').removeClass('disabled').removeAttr('disabled');
+                        // if (disabled) {
+                        //    $(disabled).addClass('disabled').attr('disabled', true);
+                        //}
+                        if (c) {
+                            $(c).hide();
+                        }
+                    } else {
+                        if (seconds < 10) {
+                            var secondes_plus = '0' + seconds;
+                        } else {
+                            var secondes_plus = seconds;
+                        }
+                        if (seconds == 0 && real_seconds > 0) {
+                            minutes = "00";
+                            secondes_plus = 60;
+                            seconds = 60;
+                        }
+
+
+                        $("span.code_counter").html(minutes + ":" + secondes_plus);
+                        seconds--;
+                        real_seconds--;
+                    }
+                }, 1000);
+        }
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<div class="modal fade" id="newPasswordModal" tabindex="-2" role="dialog" aria-labelledby="myModalLabel"  aria-hidden="true">
+    <div class="modal-dialog rounded modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form method="post" action="https://aqaryamasr.com/reset_password" id="resetPasswordForm" >
+                <input type="hidden" name="_token" value="MRMONKwsIK0eMCs7RMh09dNqxNKwAMuAfpwOLPYW"/>  <div id="codeResultj"></div>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="files\log99.jpg"/>
+                    <div class="newPasswordResult"></div>
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-passs">كلمة السر</label>
+                        <div class="input-group" id="show_hide_password0">
+                            <input type="password" id="defaultForm-passs" name="password" required=""   class="form-control validate"/>
+                            <div class="input-group-addon">
+                                <a href="#"><i class="bi bi-eye-slash"aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md-form">
+                        <label data-error="wrong" data-success="right" for="defaultForm-passsss">تأكيد كلمة السر</label>
+                        <div class="input-group" id="show_hide_passwordm">
+                            <input type="password" id="defaultForm-passsss" name="password_confirmation"    required="" class="form-control  validate"/>
+                            <div class="input-group-addon">
+                                <a href="#"><i class="bi bi-eye-slash" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="phone" class="reset-password-phone"/>
+                    <input type="hidden" name="code" class="reset-code-phone"/>
+                </div>
+                <div class="modalfooter justify-content-center">
+                    <button type="submit" class="btn btn-primary login">حفظ </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script>
+
+
+     $('#resetPasswordForm').on('submit', function (e) {
+     e.preventDefault();
+     $.ajax({
+         type: "POST",
+         url: $(this).attr('action'),
+         data: $(this).serialize(),
+         cache: false,
+         success: function (msg) {
+             if (msg.status === 'success') {
+                 $('.newPasswordResult').html('<div class="alert alert-success mt-2">' + msg.msg + '</<div>')
+                 setTimeout(function () { window.location.href = msg.redirectTo; }, 1000);
+                 /*$('#newPasswordModal').trigger('click');
+      
+      
+                 var modalCodeForm = new bootstrap.Modal(document.getElementById('modalLoginForm'))
+                 modalCodeForm.show();
+                 phone = null;
+                 codeValue = null;
+                 $('input[name=reset_pass]').val('');*/
+             } else if (msg.status === 'error') {
+                 $('.newPasswordResult').html('<div class="alert alert-danger mt-2">' + msg.msg + '</<div>')
+             }
+         }
+     });
+ })
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+        <div class="modal fade" id="notification">
+    <div class="modal-dialog">
+        <div class="modal-content" style="padding-top: 25px">
+            <div class="modal-header">
+                <div style="display: flex;">
+                    <i class="m-nav__link-icon flaticon-envelope"></i>
+                    <h4 class="modal-title font-weight-bold" id="model_label" style="margin-right: 10px;font-size: .8rem;"></h4>
+                </div>
+                <div id="n-date" style="color: blue;"></div>
+            </div>
+            <div class="modal-body">
+                <p class="lead" id="model_body" style="font-size: 0.7rem;"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        
+
+    
+
+
+
+    
+    
+
+    
+   
+
+
+
+
+
+
+
+    
+
+
+
+      
+   
+
+    
+    
+    
+     <form id="form1public" runat="server" >
+
+    
+     
+  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+
+
+        </asp:ContentPlaceHolder>
+        
+</form>
+      
+
+
+
+
+
+
+    
+
+  
+
+
+
+
+
+
+</body>
+    </html>
+
+
+
+
